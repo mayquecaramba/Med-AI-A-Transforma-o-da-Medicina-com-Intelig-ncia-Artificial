@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Med & AI - A Revolução na Saúde</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>🏥 Med & AI</h1>
+            <p>A Transformação da Medicina com Inteligência Artificial</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="intro">
+            <h2>O Futuro da Saúde Digital</h2>
+            <p>A Inteligência Artificial não substitui o médico, mas potencializa o diagnóstico, o tratamento e a descoberta de novas curas. Clique nos pilares abaixo para explorar como a tecnologia está salvando vidas.</p>
+        </section>
+
+        <section class="grid-pilares">
+            <div class="card" onclick="mostrarDetalhes('diagnostico')">
+                <h3>🖼️ Diagnóstico por Imagem</h3>
+                <p>Visão computacional na detecção precoce de anomalias.</p>
+            </div>
+            <div class="card" onclick="mostrarDetalhes('dados')">
+                <h3>📊 Análise de Dados</h3>
+                <p>Machine Learning prevendo riscos e identificando padrões.</p>
+            </div>
+            <div class="card" onclick="mostrarDetalhes('medicamentos')">
+                <h3>🧪 Novos Medicamentos</h3>
+                <p>Simulações moleculares acelerando a criação de fármacos.</p>
+            </div>
+            <div class="card" onclick="mostrarDetalhes('precisao')">
+                <h3>🧬 Medicina de Precisão</h3>
+                <p>Tratamentos customizados baseados no perfil genético.</p>
+            </div>
+        </section>
+
+        <section id="painel-detalhes" class="detalhes escondido">
+            <h3 id="detalhe-titulo">Selecione um pilar</h3>
+            <p id="detalhe-texto">Clique em um dos cartões acima para ver mais informações.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Med & AI Repositório. Feito com tecnologia e propósito.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
