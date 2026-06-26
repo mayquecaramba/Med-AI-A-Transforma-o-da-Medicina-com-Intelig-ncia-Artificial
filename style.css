@@ -1,0 +1,102 @@
+/* Configurações Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #0f172a; /* Dark mode de fundo */
+    color: #e2e8f0;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #0ea5e9, #2563eb);
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* Seções */
+.intro {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.intro h2 {
+    color: #38bdf8;
+    margin-bottom: 15px;
+}
+
+/* Grid de Cards */
+.grid-pilares {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.card {
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s, border-color 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: #38bdf8;
+}
+
+.card h3 {
+    color: #38bdf8;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+/* Painel de Detalhes Dinâmico */
+.detalhes {
+    background-color: #1e293b;
+    border-left: 4px solid #0ea5e9;
+    border-radius: 4px;
+    padding: 25px;
+    margin-top: 30px;
+    transition: all 0.3s ease;
+}
+
+.escondido {
+    display: none;
+}
+
+.detalhes h3 {
+    color: #38bdf8;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 40px;
+    color: #64748b;
+    border-top: 1px solid #334155;
+    font-size: 0.9rem;
+}
